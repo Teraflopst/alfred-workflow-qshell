@@ -1,10 +1,8 @@
 # alfred-workflow-qshell
 
-> qshell 是基于七牛API参考手册实现的一个方便开发者测试和使用七牛API服务的命令行工具。
+> qshell 是基于七牛 API 参考手册实现的一个方便开发者测试和使用七牛 API 服务的命令行工具。
 
-**alfred-workflow-qshell** 是一个配合七牛开发者工具 [qshell][qshell-doc] 使用的 Alfred workflow。
-
-**alfred-workflow-qshell** 使用可视化流程后台执行 `qshell` 命令行，易用高效。
+**alfred-workflow-qshell** 是一个配合七牛开发者工具 [qshell][qshell-doc] 使用的 Alfred workflow。它使用了可视化流程后台执行 `qshell` 命令行，使得文件上传、查询等功能更易用和高效。
 
 
 ## 功能 & 特点
