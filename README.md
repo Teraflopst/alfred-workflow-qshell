@@ -23,7 +23,6 @@ alfred-workflow-qshell 使用可视化流程后台执行 `qshell` 命令行，�
 - 要求空间的文件名为不能为空或全为空格
 
 ## 使用
-
 #### 上传文件
 
 - 默认关键字 `fput` 搜索本地单个文件，上传文件
@@ -34,11 +33,11 @@ alfred-workflow-qshell 使用可视化流程后台执行 `qshell` 命令行，�
 - 默认关键字 `fstat` 搜索空间文件
 - 移动、复制、删除、重命名、外链、信息、预览、下载
 
+
 ## 安装 & 配置
 要求：**qshell**、**Alfred with Powerpack**
 
 ### 1. [qshell][qshell-doc]
-
 或前往 [GitHub][qshell-github]
 
 安装：只需要下载 zip 包之后解压即可使用。Mac 64 位系统只需要解压后的文件 `qshell_darwin_amd64`。把此文件放到 `/usr/local/bin` 目录。
@@ -57,10 +56,9 @@ qshell account
 
 
 ### 2. [Alfred][alfred]
-下载后缀名为 `.alfredworkflow` 的安装包安装即可。
+下载 [安装包][qshell-dl] 安装即可。
 
 注意：Alfred 需要购买 [Powerpack][alfred-pp] 才能解锁 workflows 功能。
-
 
 
 ## Todo
@@ -74,10 +72,10 @@ qshell account
 - [x] 预览功能
 - [x] 下载功能
 
+
 ## 关于
 ### LICENSE
 [MIT License](./LICENSE)
-
 
 
 [qshell-doc]: http://developer.qiniu.com/code/v6/tool/qshell.html
@@ -87,3 +85,5 @@ qshell account
 [alfred-pp]: https://www.alfredapp.com/powerpack/buy/
 
 [Buffer 的使用]: https://github.com/onestark/better-series/blob/master/better-workflow.md
+
+[qshell-dl]: https://github.com/onestark/alfred-workflow-qshell/raw/master/downloads/qshell.alfredworkflow
