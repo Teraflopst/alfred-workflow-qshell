@@ -18,7 +18,7 @@
 #### 特点
 - curl 下载文件
 - 不支持文件夹上传
-- 要求空间的文件名为不能为空或全为空格
+- 要求空间的文件名不能为空或全为空格
 
 ## 使用
 #### 上传文件
@@ -38,9 +38,9 @@
 ### 1. [qshell][qshell-doc]
 或前往 [GitHub][qshell-github]
 
-安装：只需要下载 zip 包之后解压即可使用。Mac 64 位系统只需要解压后的文件 `qshell_darwin_amd64`。把此文件放到 `/usr/local/bin` 目录。
+安装：只需要下载 zip 包之后解压即可使用。Mac 64 位系统只需要解压后的文件 `qshell-darwin-x64`。把此文件重命名为 `qshell` 后放到 `/usr/local/bin` 目录。
 
-配置：从七牛的后台的账号设置中获取 **AccessKey** 和 **SecretKey**。配置本地 qshell：
+配置：从七牛的后台的账号设置中获取 **AccessKey** 和 **SecretKey**。使用终端执行以下命令，配置本地 qshell：
 
 ```
 # 设置密钥
